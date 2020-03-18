@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/text"
@@ -12,7 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_margin="32dp"
+        android:textSize="32sp"
         android:text="123456789"
+        android:gravity="right|center_vertical"
+        android:paddingtop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/input_text"
        />
     <LinearLayout
         android:layout_width="match_parent"

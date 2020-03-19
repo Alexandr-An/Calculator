@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
-
+private CalculatorModel calculator;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,5 +31,7 @@ public class MainActivity extends AppCompatActivity {
           R.id.multiplication,
           R.id.equals
         };
+
+        calculator = new CalculatorModel();
     }
 }
